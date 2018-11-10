@@ -1,0 +1,59 @@
+body {
+    margin: 10px;
+    background: url("../images/starring.png");
+}
+
+#gem-bag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color:  rgb(125, 216, 125);
+    text-align: center;
+}
+
+header, div {
+    background-color: grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+header {
+    max-width: 815px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#instructions {
+    font-weight: bold;
+    color: rgb(190, 128, 226);
+    margin-top: 20px;
+    max-width: 815px;
+}
+
+p {
+   color: lightblue
+}
+
+#gems {
+    margin-top: 20px;
+    max-width: 815px;
+}
+
+.gem-size {
+    width: 200px;
+    height: auto;
+}
