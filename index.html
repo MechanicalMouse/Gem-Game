@@ -19,20 +19,22 @@
         <h2>Instructions:</h2>
 
             <p>Each time you click a gem you will add a specific amount of points to your total score.</p>
-            <p>The value of each gem is hidden until you click on it.</p>
+            <p>The value of each gem is unknown until you click on it.</p>
             <p>When the game starts, the values of each gem will be assigned randomly.</p>
-			<p>You win the game by matching your total score to the random number.</p>
-			<p>You lose the game if your total score goes above the random number.</p>
+			<p>You win the game by matching your total score to the goal number.</p>
+			<p>You lose the game if your total score goes above the goal number.</p>
 			
 
     </div>
 
     <div id="gems">
-        <img id="green-gem" class="gem-size" src="assets/images/green-gem.png" alt="Green Gem">
-        <img id="blue-gem" class="gem-size" src="assets/images/blue-gem.png" alt="Blue Gem">
-        <img id="purple-gem" class="gem-size" src="assets/images/purple-gem.png" alt="Purple Gem">
-        <img id="pink-gem" class="gem-size" src="assets/images/pink-gem.png" alt="Pink Gem">
-    
+  
+    </div>
+
+    <div id="game">
+        <h2>Goal: <span id="goalNumber"></span></h2>
+        <p id="wins">Wins</p>
+        <p id="losses">Losses</p>
     </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
