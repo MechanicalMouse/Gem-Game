@@ -5,6 +5,9 @@ var gemArray = ["assets/images/green-gem.png","assets/images/blue-gem.png","asse
 var wins = 0;
 var losses = 0;
 
+var reset = function() {
+	counter = 0;
+}
 
 $("#goal-number").text(goal);
 
