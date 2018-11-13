@@ -1,3 +1,5 @@
+// I can't for the life of me figure out why the alert reads as and counts as loss even if it's a win, or get it to reset the goal number.
+
 var counter = 0;
 var goal = [Math.floor((Math.random() * 120 - 19 + 1) + 19)];
 var numberOptions = [Math.floor(Math.random() * (12 - 1 + 1) + 1), Math.floor(Math.random() * (12 - 1 + 1) + 1), Math.floor(Math.random() * (12 - 1 + 1) + 1), Math.floor(Math.random() * (12 - 1 + 1) + 1)];
@@ -7,7 +9,7 @@ var losses = 0;
 
 var reset = function() {
     counter = 0;
-    goal = [Math.floor((Math.random() * 120 - 19 + 1) + 19)];
+    goal = Math.floor((Math.random() * 120 - 19 + 1) + 19);
     numberOptions();
 }
 
