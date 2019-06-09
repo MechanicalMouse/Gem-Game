@@ -1,6 +1,6 @@
 # Gem-Game
 
-Use myserious gems to reach the goal!
+Use mysterious gems to reach the goal!
 
 Deployed Link: https://mechanicalmouse.github.io/Gem-Game/
 
