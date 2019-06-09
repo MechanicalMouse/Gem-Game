@@ -1,6 +1,6 @@
 # Gem-Game
 
-A game of clicking gems to reach a goal
+Use myserious gems to reach the goal!
 
 Deployed Link: https://mechanicalmouse.github.io/Gem-Game/
 
